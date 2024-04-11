@@ -120,35 +120,35 @@
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img 
             srcset="images/firefox_logo-only_RGB-120w.png 120w, images/firefox_logo-only_RGB-400w.png 400w"
-            sizes="(max-width: 500) 120px, 400px"
+            sizes="(max-width: 500px) 120px, 400px"
             src="images/firefox_logo-only_RGB-400w.png"
             alt="The Mozilla Firefox Logo, orange fox hugging a blue planet earth"
-          />
+          >
         </a>
 
         <a href="https://www.mozilla.org/">
           <img srcset="images/mozilla-dinosaur-head-120w.png 120w, images/mozilla-dinosaur-head-400w.png 400w"
-            sizes="(max-width: 500) 120px, 400px" 
+            sizes="(max-width: 500px) 120px, 400px" 
             src="images/mozilla-dinosaur-head-400w.png" 
             alt="A red dinosaur head logo"
-          />
+          >
         </a>
 
         <a href="https://addons.mozilla.org/">
           <img srcset="images/firefox-addons-120w.jpg 120w, images/firefox-addons.jpg 400w"
-            sizes="(max-width: 500) 120px, 400px" 
+            sizes="(max-width: 500px) 120px, 400px" 
             src="images/firefox-addons.jpg" 
             alt="A firefox logo cut up into puzzle pieces, arranged dynamically" 
-          />
+          >
         </a>
 
         <a href="https://developer.mozilla.org/en-US/">
           <img 
             srcset="images/mdn.svg 120w, images/mdn.svg 400w" 
-            sizes="(max-width: 500) 120px, 400px"
+            sizes="(max-width: 500px) 120px, 400px"
             src="images/mdn.svg" 
             alt="A blue map with the dino head outline" 
-          />
+          >
         </a>
 
         <div class="clearfix"></div>
@@ -156,6 +156,11 @@
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 599px)" srcset="images/red-panda-600w.jpg" >
+          <source media="(min-width: 600px)" srcset="images/red-panda-1200w.jpg" > 
+          <img src="images/red-panda-1200w.jpg" alt="A red panda sitting on a tree branch" > 
+        </picture>
       </div>
 
     </main>
