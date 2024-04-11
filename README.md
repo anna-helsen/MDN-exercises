@@ -1,5 +1,6 @@
 Doing practice exercises for mozilla's mdn web docs learning web development. 
 
+<pre> 
      _________
     / ======= \
    / __________\
@@ -14,3 +15,5 @@ Doing practice exercises for mozilla's mdn web docs learning web development.
 ~by brian macdonald~
 
 \o/ 
+
+</pre>
