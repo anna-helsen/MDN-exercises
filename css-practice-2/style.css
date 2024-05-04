@@ -10,6 +10,11 @@ h1 {
     transform: skew(30deg, 200deg);
 }
 
+.testh1 {
+    align-self: center;
+    border: 5px solid black;
+}
+
 .special {
     color: rgb(233, 240, 103);
     font-weight: bold;
@@ -67,4 +72,13 @@ body {
     /*background: repeating-linear-gradient(#e66465, #c97676 20px, #1058ff 20px, #e6ff01 25px);*/
     /*background: repeating-linear-gradient(transparent, #2c5f03 40px), repeating-linear-gradient(0.25turn, transparent, #1c05ee 20px);*/
     /*background: repeating-linear-gradient(45deg, #3f87a6, #dd95d7 15%, #f69d3c 20%);*/
+    /*background-color: pink;*/
 }
+    
+@media (min-width: 40em) {
+    body {
+        /*background: radial-gradient(#3f87a6 7%, #804f7b 50%, #f69d3c); TO TRY: Would be nice to try a background with some motion or transition of sorts...*/
+    background: #9161be url(images/background-one.jpg) 10px 10px space repeat fixed;
+    }
+}
+
