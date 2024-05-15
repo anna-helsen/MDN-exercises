@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Formatting a biography</title>
+    <style>
+      body {
+        background-color: rgb(21, 30, 70);
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      h1 {
+        color: hotpink;
+        text-align: center;
+        font-size: 2em;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        border-bottom: 10px double rgb(248, 143, 5);
+      }
+
+      h2 {
+        font-size: 1em;
+        color: rgb(248, 143, 5);
+        font-style: italic;
+      }
+
+      p{
+        font-family: monospace;
+        color: rgb(219, 115, 115);
+      }
+
+      p::first-line {
+        color: rgb(150, 204, 201);
+      }
+
+      article > p {
+        font-family: serif;
+        color: rgb(91, 180, 91);
+      }
+      
+      article > p::first-line {
+        color: rgb(234, 238, 23);
+      }
+
+      article > p::first-letter {
+        font-size: 3em;
+        color: rgb(248, 143, 5);
+      }
+
+      .job-title {
+        color: #a86666;
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+
+      ul {
+        background-color: #61419e; 
+        border: 5px dotted rgb(33, 175, 241);
+        color:greenyellow;
+        padding: 10px 50px 50px 50px;
+        list-style-type: "🔔";
+      }
+
+      a:link,
+      a:visited {
+        color: #fb6542;
+      }
+
+      a:hover {
+        color: green;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Practice Exercise - Blog</h1>
+    <div class="job-title">Web Developer</div>
+    <p>
+      Far far away, behind the word mountains, far from the countries Vokalia <br>
+      and Consonantia, there live the blind texts. Separated they live in<br>
+      Bookmarksgrove right at the coast of the Semantics, a large language<br>
+      ocean.
+    </p>
+
+    <article>
+      <p>
+        A small river named Duden flows by their place and supplies it with the<br>
+        necessary regelialia. It is a paradisematic country, in which roasted<br>
+        parts of sentences fly into your mouth.<br><br><br>
+      </p>
+     </article>
+
+    <h2>Contact information</h2>
+    <ul>
+      <li>
+        Email:
+        <a href="mailto:jane@example.com">jane@example.com</a>
+      </li>
+      <li>
+        Web:
+        <a href="https://example.com">https://example.com</a>
+      </li>
+      <li>Tel: 123 45678</li>
+    </ul>
+  </body>
+</html>
