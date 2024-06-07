@@ -18,12 +18,15 @@
         margin: 0px;
       }
 
+      * {
+        margin: 0;
+      }
 
       h1 {
         color: hotpink;
         background-color: black;
         text-align: center;
-        text-decoration: green wavy underline;
+        /*text-decoration: green wavy underline;*/
         font-size: 2em;
         font-family: Georgia, "Times New Roman", Times, serif;
         border-bottom: 10px double rgb(248, 143, 5);
@@ -84,8 +87,9 @@
       }
 
       .box {
-        width: 50%;
-        border: 5px double #fb6542;
+        width: 45em;
+        margin: 2%;
+        /*border: 5px double #fb6542;*/
         background-color: rgba(0, 0, 0, 0.5);
       }
 
@@ -98,22 +102,36 @@
         color: green;
         text-decoration: none;
       }
+
+      span.highlight1 {
+        background-color: #fb6542;
+        color: #61419e;
+      }
+
+      h1.title {
+        background-color: #f90cb2;
+        color:rgba(0, 0, 0, 0.5)
+      }
+
     </style>
   </head>
 
   <body>
-    <h1>Practice Exercise - Blog</h1>
-    <div class="job-title">Web Developer</div>
+    <h1 class="title">Practice Exercise - Blog</h1>
+    <br>
+    <br>
+    <div class="job-title">wEb DeVeLoPeR</div>
     
     <p class="box">
       Far far away, behind the word mountains, far from the countries Vokalia <br>
       and Consonantia, there live the blind texts. Separated they live in<br>
-      Bookmarksgrove right at the coast of the Semantics, a large language<br>
+      Bookmarksgrove right at the <span class="highlight1">coast of the Semantics</span>, a large language<br>
       ocean.
     </p>
 
+    <h1>...totally not a title for testing purposes</h1>
     <article>
-      <p class="box">
+      <p>
         A small river named Duden flows by their place and supplies it with the<br>
         necessary regelialia. It is a paradisematic country, in which roasted<br>
         parts of sentences fly into your mouth.<br><br><br>
@@ -121,7 +139,7 @@
      </article>
 
     <h2><span>Contact Information</span></h2>
-     
+     <br>
     <!--   <h2>Kai is a cutie!</h2>   -->
 
     <ul>
