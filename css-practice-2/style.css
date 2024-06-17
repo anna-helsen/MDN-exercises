@@ -57,6 +57,12 @@ h1 {
     
 }
 
+
+article p:first-child {
+    font-size: 200%;
+    font-weight: bold;
+}
+
 p {
     color: rgb(41, 41, 127);
     background-color: rgb(233, 247, 132);
