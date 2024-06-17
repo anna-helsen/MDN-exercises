@@ -5,3 +5,12 @@ article p:first-child::first-line {
     font-weight: bold;
     color: rebeccapurple;
 }
+
+h1 {
+    font-size: 550%;
+    color: rgb(213, 61, 78);
+    background-color: rgba(165, 141, 226, 0.8);
+    border: 15px solid rgb(253, 253, 167);;
+    padding: 5%;
+    text-align: center;
+}
