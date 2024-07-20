@@ -7,10 +7,10 @@ article p:first-child::first-line {
 }
 
 h1 {
-    font-size: 550%;
+    font-size: 150%;
     color: rgb(213, 61, 78);
     background-color: rgba(165, 141, 226, 0.8);
-    border: 15px solid rgb(253, 253, 167);;
-    padding: 5%;
+    border: 55px solid rgb(253, 253, 167);;
+    padding: 2%;
     text-align: center;
 }
